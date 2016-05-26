@@ -19,6 +19,13 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+THEME='themes/lab_nb'
+PLUGIN_PATHS=['plugins','pelican-plugins']
+PLUGINS=['liquid_tags.notebook','pelican-ipynb.liquid']
+
+STATIC_PATHS=['notebooks','chemistries']
+ARTICLE_EXCLUDES=['notebooks']
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
